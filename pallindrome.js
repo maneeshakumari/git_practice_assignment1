@@ -1,13 +1,14 @@
-let string="Naman"
+
 function reverse (string){
-    let bag="";
-    for(let i=string.length-1;i>=0;i--){
-        bag +=string[i];
-    }return bag;
+let bag="";
+for(let i=string.length-1;i>=0;i--){
+	bag +=string[i];
 }
-let reversed=reverse(string);
-if(string==reversed){
+
+if(string==bag){
     console.log("Palindrome");
 }else{
-    console.log("NA")
+    console.log("NA");
 }
+}
+reverse("naman");
