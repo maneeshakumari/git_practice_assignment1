@@ -1,11 +1,16 @@
-//prime number
+function checkprime(num){
 
-//now code is correct
-function checkPrime(num){
+
+
+    let count=0;
     for(let i=1;i<=num;i++){
-        if(num%i){
-            return true;
-        }
-    }return false;
-}
-checkPrime(13);
+    
+    if(num%i===0){
+       count++;
+    }
+    } if (count==2){
+        console.log("Yes);
+    } else{
+         console.log("No");
+    }
+    }
