@@ -1,5 +1,5 @@
 function checkPrime(num){
-    for(let i=i;i<=num;i++){
+    for(let i=1;i<=num;i++){
         if(num%i){
             return true;
         }
