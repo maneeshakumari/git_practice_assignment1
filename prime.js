@@ -1,4 +1,5 @@
-//prime number
+function checkprime(num){
+
 
 //now code is correct
 function checkPrime(num){
@@ -17,3 +18,4 @@ function checkPrime(num){
   }
 }
 checkPrime(13);
+
